@@ -1,0 +1,9 @@
+body{
+    overflow: hidden;
+}
+
+/* typography */
+html, .stage{
+    text-align: left;
+}
+
