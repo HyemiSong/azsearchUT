@@ -2,7 +2,7 @@ import React from 'react';
 import basic from '../images/basic.svg';
 import Wizard from './wizard';
 
-class splash extends React.Component {
+class Splash extends React.Component {
     render() {
         return(
             <div className='stage content posAbslute'>
@@ -28,4 +28,4 @@ class splash extends React.Component {
         );
     }
 }
-export default splash;
+export default Splash;

@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../images/mainNav.png';
 
-class navBar extends React.Component {
+class NavBar extends React.Component {
     render() {
         return(
           <div className = 'navBar'>
@@ -10,4 +10,4 @@ class navBar extends React.Component {
         );
     }
 }
-export default navBar
+export default NavBar

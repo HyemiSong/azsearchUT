@@ -1,0 +1,25 @@
+.posRelative{
+    position: relative;
+}
+  
+.posAbslute{
+    position: absolute;
+}
+
+.formFrame{
+  width: 100%;
+  background-color: white;
+  z-index: 10000;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: #d6d6d6;
+}
+
+.form-padding{
+  /* padding:15px 30px 30px 30px; */
+}
+
+.azlabel{
+  font-size:13px;
+}
+

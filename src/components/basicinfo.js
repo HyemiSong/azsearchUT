@@ -2,7 +2,7 @@ import React from 'react';
 import basic from '../images/basic.svg';
 import Wizard from './wizard';
 
-class basicinfo extends React.Component {
+class Basicinfo extends React.Component {
     render(){
         return(
                 <div className='stage content posAbslute'>
@@ -36,4 +36,4 @@ class basicinfo extends React.Component {
         );
     }
 }
-export default basicinfo;
+export default Basicinfo;

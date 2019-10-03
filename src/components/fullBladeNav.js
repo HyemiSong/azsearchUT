@@ -1,6 +1,6 @@
 import React from 'react';
 
-class fullBladeNav extends React.Component {
+class FullBladeNav extends React.Component {
     render() {
         return (
             <div className='fBNav'>
@@ -11,4 +11,4 @@ class fullBladeNav extends React.Component {
     }
 
 }
-export default fullBladeNav;
+export default FullBladeNav;

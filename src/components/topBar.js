@@ -2,7 +2,7 @@ import React from 'react';
 import imgLeft from '../images/topbarLeft.png';
 import imgRight from '../images/topbarRight.png';
 
-class topBar extends React.Component {
+class TopBar extends React.Component {
     render() {
         return (
             <div className='topBar'>
@@ -12,4 +12,4 @@ class topBar extends React.Component {
         );
     }
 }
-export default topBar;
+export default TopBar;

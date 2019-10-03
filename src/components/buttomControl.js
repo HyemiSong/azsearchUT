@@ -1,6 +1,6 @@
 import React from 'react';
 
-class bottomControl extends React.Component {
+class BottomControl extends React.Component {
     render(){
         return(
             <div className='bottomCtrl posAbslute'>
@@ -12,4 +12,4 @@ class bottomControl extends React.Component {
         );
     }
 }
-export default bottomControl;
+export default BottomControl;
