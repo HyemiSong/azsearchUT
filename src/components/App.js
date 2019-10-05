@@ -20,7 +20,9 @@ class App extends React.Component {
     super(props);
     this.state = {
       selected_content: 2,
-      addimg_Mode: false,
+      addImg_Mode: false,
+      trashImg_Mode: false,
+      init_Mode: false,
       preApp: '',
       preCode: '',
       contents:[
@@ -34,20 +36,28 @@ class App extends React.Component {
       ]
     };
   }
-  updateAddCompMode(value){
-    this.setState({addimg_Mode: value})
-    console.log(value)
+  _updateAddImgCompMode(value1, value2, value3){
+    this.setState({addImg_Mode: value1});
+    this.setState({init_Mode: value2});
+    this.setState({trashImg_Mode: value3});
+  }
+  _updateAddImgMode(e){
+    this.setState({addImg_Mode: true});
+  }
+  _updateRemoveImgMode(value1, value2){
+    this.setState({trashImg_Mode: value1});
+    this.setState({addImg_Mode: value2});
   }
   render(){
     const steps = [
       // {name: '.', component: <Basic information={this.state.contents[0].title} desc={this.state.contents[0].desc}/>},
       {name: '.', component: <Results title={this.state.contents[1].title} subtitle={this.state.contents[1].subtitle} 
                                       desc={this.state.contents[1].desc} preApp={this.state.preApp} preCode={this.state.preCode}
-                                      addimg_Mode={this.state.addimg_Mode}
-                                      onChangePage={function(){
-                                        this.setState({addimg_Mode: true});
-                                      }.bind(this)}
-                                      updateAddCompMode={this.updateAddCompMode.bind(this)}/>
+                                      init_Mode={this.state.init_Mode} addImg_Mode={this.state.addImg_Mode}
+                                      trashImg_Mode={this.state.trashImg_Mode}
+                                      updateRemoveImgMode={this._updateRemoveImgMode.bind(this)}
+                                      updateAddImgMode={this._updateAddImgMode.bind(this)}
+                                      updateAddImgCompMode={this._updateAddImgCompMode.bind(this)}/>
       },
       {name: '.', component: <Sidebar title={this.state.contents[2].title} desc={this.state.contents[2].desc}/>},
       {name: '.', component: <Suggestions title={this.state.contents[3].title} desc={this.state.contents[3].desc}/>},
@@ -69,7 +79,6 @@ class App extends React.Component {
             }
             />
           </div>
-          {/* <Results updateAddCompMode={this.updateAddCompMode.bind(this)}/> */}
           <Bottomcontrol />
         </div>
     );
