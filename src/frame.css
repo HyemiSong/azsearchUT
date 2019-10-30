@@ -39,7 +39,7 @@
 
 .bladeTitle{
   width: 100%;
-  height: 45px;
+  height: 40px;
 }
 
 .borderBottom{
@@ -61,128 +61,68 @@
 /* mainStage left: 233+226px */
 .stage {
   width: 100%;
-  left: 449px; 
+  left: 225px; 
 }
 
 .content{
-  top: 114px;
+  top: 154px;
   z-index:1000;
 }
 
 .wizard{
   top:0px;
   left:0px;
-  height:560px;
-  border-right: 1px solid #d6d6d6;
+  width:100%;
+  border-top: 1px solid #d6d6d6;
 }
 
 .bottomCtrl{
   position: absolute;
   left: 226px;
   bottom: 0;
-}
-
-/* stage */
-.posRelative{
-  position: relative;
-}
-
-.posAbslute{
-  position: absolute;
-}
-
-.stage-padding{
-  padding:15px 30px 30px 30px;
-}
-
-.centering-left{
-  top: 50%;
-  transform: translate(10%, -50%)
-}
-
-.centering-top{
-  top: 50%;
-  transform: translate(16%, -50%)
-}
-
-.alignLeft{
-  left: 0;
-  float:left;
-}
-
-.intro{
-  height: 100px;
-}
-
-.thumb{
-  width:126px;
-  height:84px;
-}
-
-.resultFrame .thumb{
-  height:126px;
-}
-
-img{
-  padding-right:10px;
-}
-
-.txt{
-  width:50%;
-}
-
-.toolbar, .template, .info{
-  width:100%;
-}
-
-.toolbar{
-  height:40px;
-}
-
-.template, .info{
-  height:150px;
-}
-
-.toolbar .controler{
-  padding: 5px;
-}
-
-.toolbar .controler a{
-  padding: 5px;
-}
-
-.toolbar .controler a span{
-  margin-right: 10px;
-}
-
-.azbtn{
-  font-size: 14px;
-}
-
-.resultFrame{
-  width:700px;
-  height:160px;
-  border: 1px solid #d6d6d6;
-  border-radius: 2px;
-}
-
-.border{
-  border: 1px solid #d6d6d6;
-  border-radius: 2px;
+  z-index: 1;
 }
 
 /* stepzilla */
+/* .progtrckr-todo, .progtrckr-doing{
+  float: left;
+  margin-right:50px;
+}
 .step-progress{
-  width:233px;
+  font-size:13px;
+  width:100%;
   padding-left:226px;
-  height: 650px;
+  height: 0px;
 }
 .progtrckr-doing {
-  background-color: blue;
+  background-color: lightgrey;
 }
 .progtrckr{
   text-align: left;
+} */
+
+.progtrckr-doing {
+  background-color: grey;
 }
+
+ol{
+  list-style: none;
+  padding-left:226px;
+  font-size:13px;
+}
+
+li{
+  float:left;
+  margin-right: 10px;
+  width:12%;
+  background-color: lightgrey;
+  user-select:none;
+}
+
+li em{
+  font-size: 0;
+}
+
 .footer-buttons{
   left: 226px;
   width: 100%;

@@ -1,12 +1,14 @@
 import React from 'react';
 
 class BottomControl extends React.Component {
+    _onClick(e){
+       this.props.reviewPage(3);
+    }
     render(){
         return(
             <div className='bottomCtrl posAbslute'>
                 <div className='centering-left'>
-                    <button>Review+Create</button>
-                    {/* <button className='closebtn'>Close</button> */}
+                    <a href="#" onClick={this._onClick.bind(this)}><button>Review+Create</button></a>
                 </div>
             </div>
         );

@@ -6,19 +6,20 @@ class Basicinfo extends React.Component {
     render(){
         return(
                 <div className='stage content posAbslute'>
-                    <div className='intro stage-padding posRelative'>
+                    <div className='intro padding posRelative'>
                         <div className='title'>Basic Information</div>
                         <p>
                             <img src ={basic} alt='basic' className='thumb alignLeft'></img>
                             <div className='txt'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                Ut enim ad minim veniam, quis no
+                                strud exercitation ullamco.
                             </div>
                         </p>
                     </div>
                     <div className='toolbar borderBottom borderTop'></div>
-                    <div className='option stage-padding posRelative'>
+                    <div className='option padding posRelative'>
                         <div className='template'>
                             <div className='subtitle'>Templates</div>
                             <img src ={basic} alt='basic' className='thumb'></img>

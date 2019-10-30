@@ -18,7 +18,7 @@ class Splash extends React.Component {
                 </p>
             </div>
             <div className='toolbar borderBottom borderTop'></div>
-            <div className='option stage-padding posRelative'>
+            <div className='option padding posRelative'>
                 <div className='template'>
                     <div className='subtitle'>Splash</div>
                 </div>
