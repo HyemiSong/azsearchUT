@@ -27,7 +27,7 @@ class InputFormDesc extends React.Component {
     render(){
         return(
             <div className='formFrame posAbsolute form-padding padding'>
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+                <div className='ft-xsm'>Choose a field that you want to display as description. The list is from the first object of your index as an example.</div>
                 <form action='/create_process' method='post'
                     onSubmit={this.onClick.bind(this)}>
                       <p>

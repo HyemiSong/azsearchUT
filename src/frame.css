@@ -7,6 +7,7 @@
     height: 40px;
     width: 100%;
     background-color: #0078d4;
+    top: 0%;
 }
 
 .navBar{
@@ -100,28 +101,40 @@
 .progtrckr{
   text-align: left;
 } */
+/* 
+ol.progtrckr li.progtrckr-doing {
+  color: black;
+  border-bottom: 4px solid #CCCCCC;
+}
 
-.progtrckr-doing {
-  background-color: grey;
+ol.progtrckr li.progtrckr-doing {
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 ol{
   list-style: none;
-  padding-left:226px;
-  font-size:13px;
+  padding-left:240px;
+  font-size:14px;
 }
 
-li{
+ol.progtrckr li{
   float:left;
   margin-right: 10px;
-  width:12%;
-  background-color: lightgrey;
-  user-select:none;
+  width:10%;
+  background-color: silver;
+  height:25px;
+  color: #0078d4;
+  cursor: pointer;
+}
+
+.progtrckr li span{
+  position: relative;
 }
 
 li em{
   font-size: 0;
-}
+} */
 
 .footer-buttons{
   left: 226px;
@@ -131,15 +144,17 @@ li em{
   background-color:white;
   border-top: 1px solid #d6d6d6;
 }
+
 .btn{
   position: absolute;
   top: 50%;
   transform: translate(30%, -50%)
 }
+
 .btn-next{
   left: 8%;
 }
+
 .btn-prev{
   left: 14.5%;
 }
-

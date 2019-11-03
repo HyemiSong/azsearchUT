@@ -2,7 +2,7 @@ import React from 'react';
 import Wizard from './wizard';
 import Bottomcontrol from './buttomControl';
 
-import ThumbImg from '../images/results.svg';
+import ThumbImg from '../images/suggestions.svg';
 import Union59 from '../images/Union59_B.svg';
 import Show from '../images/Eye_B.svg';
 import Info from '../images/Info.svg';
@@ -42,39 +42,24 @@ class Suggestions extends React.Component {
                         </div>
                         <div className='table ft-xsm'>
                             <div className='col floatLeft'>
-                                <div className='ft-xxsm ft-semibold uppercase'>text variables</div>
+                                <div className='ft-xxsm ft-semibold uppercase'>Layout</div>
                                 <p></p>
-                                searchText
+                                Info 1
                                 <p></p>
-                                displayText
+                                Info 2
                             </div>
                             <div className='col floatLeft'>
-                                <div className='ft-xxsm ft-semibold uppercase'>Text size(px)</div>
+                                <div className='ft-xxsm ft-semibold uppercase'>Fields</div>
                                 <p>
                                 <select name='title'>
-                                    <option value='searchText'>10</option>
-                                    <option value='searchText'>12</option>
+                                    <option value='searchText'>Description_Fr</option>
+                                    <option value='searchText'>Bath</option>
                                 </select>
                                 </p>
                                 <p>
                                 <select name='title'>
-                                    <option value='displayText'>10</option>
-                                    <option value='displayText'>12</option>
-                                </select>
-                                </p>
-                            </div>
-                            <div className='col floatLeft'>
-                                <div className='ft-xxsm ft-semibold uppercase'>Text weight</div>
-                                <p>
-                                <select name='title'>
-                                    <option value='searchText'>Regular</option>
-                                    <option value='searchText'>Bold</option>
-                                </select>
-                                </p>
-                                <p>
-                                <select name='title'>
-                                    <option value='displayText'>Bold</option>
-                                    <option value='displayText'>Regular</option>
+                                    <option value='displayText'>Address</option>
+                                    <option value='displayText'>Num of Rooms</option>
                                 </select>
                                 </p>
                             </div>

@@ -5,7 +5,7 @@ import imgRight from '../images/topbarRight.png';
 class TopBar extends React.Component {
     render() {
         return (
-            <div className='topBar'>
+            <div className='topBar posAbsolute'>
                 <img src={imgLeft} alt='topBar' className='topBarL'></img>
                 <img src={imgRight} alt='topBar' className='topBarR'></img>
             </div>

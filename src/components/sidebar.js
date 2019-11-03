@@ -4,7 +4,7 @@ import EditableList from './editableList';
 import InputFormSidebar from './inputFormSidebar';
 import Bottomcontrol from './buttomControl';
 
-import ThumbImg from '../images/results.svg';
+import ThumbImg from '../images/sidebar.svg';
 import Union59 from '../images/Union59_B.svg';
 import Show from '../images/Eye_B.svg';
 import Info from '../images/Info.svg';
